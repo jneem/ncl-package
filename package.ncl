@@ -1,6 +1,4 @@
 {
-  dependencies = {
-    "jneem/example" = 'Path "../blah",
-    "jneem/nickel-cursor" = 'Git { url = "https://github.com/jneem/nickel-cursor" },
-  }
-}
+  name = "jneem/example",
+  version = "0.1.0",
+} | std.package.Manifest
